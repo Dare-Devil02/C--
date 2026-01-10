@@ -4,7 +4,7 @@ int main(){
     int a,b;
     cout<<"Enter values";
     cin>>a>>b;
-    if(a>5)
+    if(a>0)
     cout<<"true";
     else
     cout<<"false";
