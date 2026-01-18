@@ -1,15 +1,15 @@
 #include<iostream>
 using namespace std;
-int main(){
-int n,i=2,rem=0;
-cout<<"Enter a number to check prime"<<endl;
-cin>>n;
-while(i<n){
-    rem=n%i;
-    i++;
+int isprime(int n){
+for(int i=2;i<n;i++){
+    if(n%i);
+    return 0;
+}    
+return 1;
 }
-if(rem!=0)
-cout<<"Prime";
-else
-cout<<"Not Prime";
+int main(){
+int n;
+cout<<"Enter a number to check prime :";
+cin>>n;
+cout<<(isprime(n)?"Not Prime": "Prime");
 }
